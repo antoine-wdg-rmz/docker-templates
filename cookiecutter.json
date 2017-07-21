@@ -1,4 +1,4 @@
 {
     "service_name": "service",
-    "image": "debian:latest"
+    "python_version": "3.6"
 }
