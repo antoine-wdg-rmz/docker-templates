@@ -1,8 +1,11 @@
 version: '3'
 services:
+
   {{cookiecutter.service_name}}:
     build: ./{{cookiecutter.service_name}}
     volumes: 
       - ./{{cookiecutter.service_name}}/src:/opt/src
+    environment:
+      - FLASK_DEBUG=1
   
 
